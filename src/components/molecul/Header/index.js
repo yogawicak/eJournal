@@ -24,17 +24,19 @@ const style = StyleSheet.create({
         alignItems:'center',
         height:50,
         marginTop:19,
-        marginHorizontal:21,
+        // marginHorizontal:21,
         borderRadius:10,
         borderColor:'#ECECEC',
         borderStyle:'solid',
         borderWidth:0.4,
         elevation:7,
         marginBottom:8,
-        backgroundColor:'white'
+        backgroundColor:'white',
     },
     text:{
-        fontWeight:'bold'
+        fontFamily:'Poppins-Bold',
+        color:'#F7482E',
+        fontSize:17
     }
 })
 
